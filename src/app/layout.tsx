@@ -3,11 +3,11 @@ import localFont from "next/font/local"
 
 import "@/styles/globals.css"
 
+import { Viewport } from "next"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
-import { Viewport } from "next"
 
 // import { cn } from "@/lib/utils"
 // import { Toaster } from "@/components/ui/toaster"
@@ -38,7 +38,7 @@ interface RootLayoutProps {
 
 export const metadata = {
     title: {
-        default: `${siteConfig.name} - Innovative Software Solutions and Services`,
+        default: `${siteConfig.name} - Empowering Businesses and Enriching Lives with Innovative Tech Solutions`,
         template: `%s | ${siteConfig.name}`,
     },
     description: siteConfig.description,
@@ -52,7 +52,7 @@ export const metadata = {
         "school erp",
         "billing software solutions",
         "it company",
-        "software developer"
+        "software developer",
     ],
     alternates: {
         canonical: "https://kodecs.in",
