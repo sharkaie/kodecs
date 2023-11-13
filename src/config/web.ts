@@ -2,26 +2,34 @@ import { WebConfig } from "@/types"
 
 export const webConfig: WebConfig = {
     mainNav: [
+        // {
+        //     title: "Features",
+        //     href: "/#features",
+        //     disabled: true,
+        // },
         {
-            title: "Features",
-            href: "/#features",
-            disabled: true,
+            title: "Home",
+            href: "/",
         },
         {
-            title: "Institues",
-            href: "/#features",
+            title: "Products & Services",
+            href: "/products",
         },
         {
-            title: "Pricing",
-            href: "/pricing",
+            title: "About Us",
+            href: "/about-us",
         },
         {
             title: "Blog",
             href: "/blog",
         },
         {
-            title: "Documentation",
-            href: "/docs",
+            title: "Contact Us",
+            href: "/contact-us",
+        },
+        {
+            title: "Support",
+            href: "/support",
         },
     ],
 }
