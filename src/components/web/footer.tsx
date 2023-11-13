@@ -13,7 +13,7 @@ const Footer = (props: Props) => {
     return (
         <footer className="text-muted-foreground bg-background body-font">
             <div className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap">
-                <div className="shrink-0 w-64 mx-auto mt-10 text-center md:mx-0 md:text-left md:mt-0">
+                <div className="w-64 mx-auto mt-10 text-center shrink-0 md:mx-0 md:text-left md:mt-0">
                     <Link
                         href="/"
                         className="flex items-center justify-center font-medium text-white title-font md:justify-start"
@@ -31,7 +31,7 @@ const Footer = (props: Props) => {
                         {siteConfig.tagline}
                     </p>
                 </div>
-                <div className="flex flex-wrap grow order-first -mb-10 text-center md:pr-20 md:text-left">
+                <div className="flex flex-wrap order-first -mb-10 text-center grow md:pr-20 md:text-left">
                     <div className="w-full px-4 lg:w-1/4 md:w-1/2">
                         <h2 className="mb-3 text-sm font-medium tracking-widest text-white title-font">
                             MAIN
@@ -55,7 +55,7 @@ const Footer = (props: Props) => {
                             </li>
                             <li>
                                 <Link
-                                    href=""
+                                    href="/blog"
                                     className="text-muted-foreground hover:text-white"
                                 >
                                     Blog
@@ -63,7 +63,7 @@ const Footer = (props: Props) => {
                             </li>
                             <li>
                                 <Link
-                                    href=""
+                                    href="/about-us"
                                     className="text-muted-foreground hover:text-white"
                                 >
                                     About Us
@@ -144,16 +144,28 @@ const Footer = (props: Props) => {
                         © {footerYear} {siteConfig.name}. All rights reserved.
                     </p>
                     <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
-                        <a className="text-muted-foreground">
+                        <a
+                            href="https://facebook.com/kodecstechnology"
+                            className="text-muted-foreground"
+                        >
                             <Icons.facebook className="w-5 h-5 fill-muted-foreground" />
                         </a>
-                        <a className="ml-3 text-muted-foreground">
+                        <a
+                            href="https://x.com/kodecstechnology"
+                            className="ml-3 text-muted-foreground"
+                        >
                             <Icons.twitter className="w-5 h-5 fill-muted-foreground" />
                         </a>
-                        <a className="ml-3 text-muted-foreground">
+                        <a
+                            href="https://instagram.com/kodecs.technology"
+                            className="ml-3 text-muted-foreground"
+                        >
                             <Icons.instagram className="w-5 h-5" />
                         </a>
-                        <a className="ml-3 text-muted-foreground">
+                        <a
+                            href="https://linkedin.com/kodecstechnology"
+                            className="ml-3 text-muted-foreground"
+                        >
                             <Icons.linkedin className="w-5 h-5 fill-muted-foreground" />
                         </a>
                     </span>
