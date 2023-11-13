@@ -1,8 +1,23 @@
 import React from "react"
+import { Metadata } from "next"
 import { Icons } from "@/components/icons"
 import { Button } from "@/components/ui/button"
 
 type Props = {}
+
+export const metadata: Metadata = {
+    title: "Get in Touch with us",
+    description:
+        "Reach out to Kodecs Technology and elevate your business. Connect with us for innovative solutions, personalized support, and a partnership in success.",
+    keywords: [
+        "Contact Kodecs",
+        "Business partnership",
+        "Innovative solutions",
+        "Support",
+        "Get in touch",
+        "Elevate your business",
+    ],
+}
 
 const Page = (props: Props) => {
     return (
@@ -11,12 +26,11 @@ const Page = (props: Props) => {
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-col w-full mb-12 text-center">
                         <h1 className="mb-4 text-2xl font-medium text-secondary-foreground sm:text-3xl title-font">
-                            Contact Us
+                            Get in Touch - Contact Us
                         </h1>
                         <p className="mx-auto text-base leading-relaxed lg:w-2/3">
-                            Get in touch with Kodecs. Elevate your business with
-                            our innovative solutions. Let&apos;s shape success
-                            together. Contact us now!
+                            Elevate your business with our innovative solutions.
+                            Let&apos;s shape success together. Contact us now!
                         </p>
                     </div>
                     <div className="mx-auto lg:w-1/2 md:w-2/3">

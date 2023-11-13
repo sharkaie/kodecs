@@ -1,14 +1,38 @@
 import React from "react"
+import { Metadata } from "next"
 import Image from "next/image"
 import { Icons } from "@/components/icons"
 
 type Props = {}
+
+export const metadata: Metadata = {
+    title: "Explore Insights and Trends - Blogs",
+    description:
+        "Stay informed with Kodecs Technology's blog. Explore industry insights, tech trends, and expert perspectives on innovation, efficiency, and the future of business technology.",
+    keywords: [
+        "Tech trends",
+        "Industry insights",
+        "Business innovation",
+        "Kodecs Blog",
+        "Efficiency",
+        "Future of technology",
+    ],
+}
 
 const Page = (props: Props) => {
     return (
         <>
             <section className="w-full text-muted-foreground body-font">
                 <div className="container px-5 py-24 mx-auto">
+                    <div className="flex flex-col flex-wrap items-center w-full mb-20 text-center">
+                        <h1 className="mb-2 text-2xl font-medium text-secondary-foreground sm:text-3xl title-font">
+                            Explore Insights and Trends - Blogs
+                        </h1>
+                        <p className="w-full leading-relaxed text-muted-foreground lg:w-1/2">
+                            Read out our insights and trends on technology and
+                            business.
+                        </p>
+                    </div>
                     <div className="flex flex-wrap -m-4">
                         <div className="p-4 md:w-1/3">
                             <div className="h-full overflow-hidden border-2 rounded-lg border-border border-opacity-60">

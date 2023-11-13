@@ -1,10 +1,25 @@
 import React from "react"
+import { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { Button, buttonVariants } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
 type Props = {}
+
+export const metadata: Metadata = {
+    title: "About Us Innovators in Cutting-Edge Solutions",
+    description:
+        "Discover the story of Kodecs Technology, where innovation meets efficiency. Learn about our mission, values, and commitment to providing tailored and cutting-edge solutions for businesses.",
+    keywords: [
+        "About Kodecs",
+        "Innovation",
+        "Cutting-edge solutions",
+        "Tailored solutions",
+        "Mission, Values",
+        "Technology company",
+    ],
+}
 
 const page = (props: Props) => {
     return (
@@ -92,7 +107,7 @@ const page = (props: Props) => {
             <section className="text-primary body-font">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-col items-start mx-auto lg:w-2/3 sm:flex-row sm:items-center">
-                        <h1 className="grow text-2xl font-medium sm:pr-16 title-font">
+                        <h1 className="text-2xl font-medium grow sm:pr-16 title-font">
                             Ready to Transform Your Business? Connect with Us
                             Today. Let&apos;s Innovate Together!
                         </h1>

@@ -1,4 +1,5 @@
 import React from "react"
+import { Metadata } from "next"
 import ProductItem from "@/components/web/product-item"
 
 type Props = {}
@@ -42,6 +43,20 @@ const products = [
     },
 ]
 
+export const metadata: Metadata = {
+    title: "Discover Our Cutting-Edge Software Solutions",
+    description:
+        "Explore our innovative software solutions designed to elevate your business. From efficient ERP systems to advanced RFID technology, discover the future of technology at Kodecs.",
+    keywords: [
+        "Cutting-edge software",
+        "ERP solutions",
+        "RFID technology",
+        "Business software",
+        "Innovative solutions",
+        "Kodecs Technology",
+    ],
+}
+
 const Page = (props: Props) => {
     return (
         <>
@@ -57,7 +72,7 @@ const Page = (props: Props) => {
                             products now!
                         </p>
                     </div>
-                    <div className="flex flex-wrap shrink-0 w-full">
+                    <div className="flex flex-wrap w-full shrink-0">
                         {products.map((product, index) => (
                             <ProductItem key={index} {...product} />
                         ))}
