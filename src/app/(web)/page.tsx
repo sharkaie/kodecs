@@ -35,9 +35,9 @@ const Page = (props: Props) => {
                             Explore Products
                         </Link>
                         <Link
-                            href={siteConfig.links.github}
+                            href="/contact-us"
                             target="_blank"
-                            rel="noreferrer"
+                            // rel="noreferrer"
                             className={cn(
                                 buttonVariants({
                                     variant: "outline",
@@ -45,7 +45,7 @@ const Page = (props: Props) => {
                                 })
                             )}
                         >
-                            GitHub
+                            Contact Us
                         </Link>
                     </div>
                 </div>
