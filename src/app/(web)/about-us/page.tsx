@@ -115,7 +115,7 @@ const page = (props: Props) => {
                             className={cn(
                                 buttonVariants({ variant: "default" })
                             )}
-                            href="/products"
+                            href="/contact-us"
                         >
                             Contact Us
                         </Link>
