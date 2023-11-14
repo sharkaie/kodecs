@@ -13,7 +13,7 @@ const Page = (props: Props) => {
             <section className="pt-6 pb-8 space-y-6 md:pb-12 md:pt-10 lg:py-32">
                 <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
                     <Link
-                        href={siteConfig.links.twitter}
+                        href="/blog"
                         className="rounded-2xl bg-muted px-4 py-1.5 text-sm font-medium"
                         target="_blank"
                     >
@@ -29,10 +29,10 @@ const Page = (props: Props) => {
                     </p>
                     <div className="space-x-4">
                         <Link
-                            href="/login"
+                            href="/products"
                             className={cn(buttonVariants({ size: "lg" }))}
                         >
-                            Get Started
+                            Explore Products
                         </Link>
                         <Link
                             href={siteConfig.links.github}
@@ -195,7 +195,7 @@ const Page = (props: Props) => {
                         <div className="p-4 md:w-1/3">
                             <div className="flex flex-col h-full p-8 rounded-lg bg-secondary">
                                 <div className="flex items-center mb-3">
-                                    <div className="inline-flex items-center justify-center shrink-0 w-8 h-8 mr-3 bg-blue-500 rounded-full text-secondary-foreground">
+                                    <div className="inline-flex items-center justify-center w-8 h-8 mr-3 bg-blue-500 rounded-full shrink-0 text-secondary-foreground">
                                         <Icons.code className="w-5 h-5" />
                                     </div>
                                     <h2 className="text-lg font-medium text-secondary-foreground title-font">
@@ -213,7 +213,7 @@ const Page = (props: Props) => {
                         <div className="p-4 md:w-1/3">
                             <div className="flex flex-col h-full p-8 rounded-lg bg-secondary">
                                 <div className="flex items-center mb-3">
-                                    <div className="inline-flex items-center justify-center shrink-0 w-8 h-8 mr-3 bg-blue-500 rounded-full text-secondary-foreground">
+                                    <div className="inline-flex items-center justify-center w-8 h-8 mr-3 bg-blue-500 rounded-full shrink-0 text-secondary-foreground">
                                         <Icons.magic className="w-5 h-5" />
                                     </div>
                                     <h2 className="text-lg font-medium text-secondary-foreground title-font">
@@ -231,7 +231,7 @@ const Page = (props: Props) => {
                         <div className="p-4 md:w-1/3">
                             <div className="flex flex-col h-full p-8 rounded-lg bg-secondary">
                                 <div className="flex items-center mb-3">
-                                    <div className="inline-flex items-center justify-center shrink-0 w-8 h-8 mr-3 bg-blue-500 rounded-full text-secondary-foreground">
+                                    <div className="inline-flex items-center justify-center w-8 h-8 mr-3 bg-blue-500 rounded-full shrink-0 text-secondary-foreground">
                                         <Icons.badgeCheck className="w-5 h-5" />
                                     </div>
                                     <h2 className="text-lg font-medium text-secondary-foreground title-font">
@@ -284,7 +284,7 @@ const Page = (props: Props) => {
             <section className="text-primary body-font">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-col items-start mx-auto lg:w-2/3 sm:flex-row sm:items-center">
-                        <h1 className="grow text-2xl font-medium sm:pr-16 title-font">
+                        <h1 className="text-2xl font-medium grow sm:pr-16 title-font">
                             Explore our dynamic software solutions and elevate
                             your business today. Discover innovation now!
                         </h1>
