@@ -90,7 +90,7 @@ const Footer = (props: Props) => {
                         <h2 className="mb-3 text-sm font-medium tracking-widest text-white title-font">
                             CONTACT
                         </h2>
-                        <nav className="mb-10 list-none">
+                        <nav className="mb-10 list-none text">
                             <li>
                                 <Link
                                     href="/contact-us"
