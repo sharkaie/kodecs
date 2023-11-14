@@ -86,12 +86,9 @@ const Page = (props: Props) => {
                                 <Button>Send Enquiry</Button>
                             </div>
                             <div className="w-full p-2 pt-8 mt-8 text-center border-t border-border">
-                                <a
-                                    href="mailto:support@kodecs.in"
-                                    className="text-blue-400"
-                                >
+                                <span className="text-blue-400">
                                     support@kodecs.in
-                                </a>
+                                </span>
                                 <p className="my-5 leading-normal">
                                     G-58, Techops Garden
                                     <br />
