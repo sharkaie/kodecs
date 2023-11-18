@@ -49,6 +49,7 @@ export const metadata = {
         "id card maker",
         "idm technology",
         "buisness erp",
+        "kod",
         "school erp",
         "billing software solutions",
         "it company",
