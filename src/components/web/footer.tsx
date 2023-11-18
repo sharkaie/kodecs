@@ -16,7 +16,7 @@ const Footer = (props: Props) => {
                 <div className="w-64 mx-auto mt-10 text-center shrink-0 md:mx-0 md:text-left md:mt-0">
                     <Link
                         href="/"
-                        className="flex items-center justify-center font-medium text-white title-font md:justify-start"
+                        className="flex items-center justify-center font-medium text-secondary-foreground title-font md:justify-start"
                     >
                         <Image
                             className="w-10 h-10rounded-sm"
