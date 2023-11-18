@@ -2,9 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 Install prerequistie
+
 `pnpm add -D eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-tailwindcss lint-staged prettier prettier-plugin-tailwindcss @commitlint/cli @commitlint/config-conventional @ianvs/prettier-plugin-sort-imports`
 
 `pnpm add framer-motion lucide-react next-themes zod @t3-oss/env-nextjs`
+
 First, run the development server:
 
 ```bash
