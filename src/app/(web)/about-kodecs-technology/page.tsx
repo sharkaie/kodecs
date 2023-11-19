@@ -8,11 +8,11 @@ import { cn } from "@/lib/utils"
 type Props = {}
 
 export const metadata: Metadata = {
-    title: "About Us Innovators in Cutting-Edge Solutions",
+    title: "About Kodecs Technology Innovators in Cutting-Edge Solutions",
     description:
         "Discover the story of Kodecs Technology, where innovation meets efficiency. Learn about our mission, values, and commitment to providing tailored and cutting-edge solutions for businesses.",
     keywords: [
-        "About Kodecs",
+        "About Kodecs Technology",
         "Innovation",
         "Cutting-edge solutions",
         "Tailored solutions",
