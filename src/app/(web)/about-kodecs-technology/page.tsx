@@ -18,6 +18,7 @@ export const metadata: Metadata = {
         "Tailored solutions",
         "Mission, Values",
         "Technology company",
+        "Software company",
     ],
 }
 
