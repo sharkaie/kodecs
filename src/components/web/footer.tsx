@@ -63,10 +63,10 @@ const Footer = (props: Props) => {
                             </li>
                             <li>
                                 <Link
-                                    href="/about-us"
+                                    href="/about-kodecs-technology"
                                     className="text-muted-foreground hover:text-white"
                                 >
-                                    About Us
+                                    About Kodecs Technology
                                 </Link>
                             </li>
                         </nav>

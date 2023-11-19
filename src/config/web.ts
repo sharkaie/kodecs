@@ -16,8 +16,8 @@ export const webConfig: WebConfig = {
             href: "/products",
         },
         {
-            title: "About Us",
-            href: "/about-us",
+            title: "About Kodecs Technology",
+            href: "/about-kodecs-technology",
         },
         {
             title: "Blog",
