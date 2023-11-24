@@ -14,6 +14,9 @@ export const metadata: Metadata = {
         "Efficient solutions",
         "Personalized assistance",
     ],
+    alternates: {
+        canonical: "https://kodecs.in/support",
+    },
 }
 
 const Page = (props: Props) => {

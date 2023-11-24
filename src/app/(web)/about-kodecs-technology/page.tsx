@@ -19,6 +19,9 @@ export const metadata: Metadata = {
         "Mission, Values",
         "Technology company",
     ],
+    alternates: {
+        canonical: "https://kodecs.in/about-kodecs-technology",
+    },
 }
 
 const page = (props: Props) => {

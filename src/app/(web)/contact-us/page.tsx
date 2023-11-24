@@ -17,6 +17,9 @@ export const metadata: Metadata = {
         "Get in touch",
         "Elevate your business",
     ],
+    alternates: {
+        canonical: "https://kodecs.in/contact-us",
+    },
 }
 
 const Page = (props: Props) => {
