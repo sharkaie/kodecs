@@ -184,7 +184,7 @@ const Page = (props: Props) => {
             <section className="text-gray-600 body-font">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-col w-full mb-20 text-center">
-                        <h3 className="mb-1 text-xs font-medium tracking-widest text-blue-500 title-font">
+                        <h3 className="mb-1 text-xs font-medium tracking-widest text-muted-foreground title-font">
                             Why Choose Us?
                         </h3>
                         <h2 className="text-2xl font-medium text-secondary-foreground sm:text-3xl title-font">
@@ -195,7 +195,7 @@ const Page = (props: Props) => {
                         <div className="p-4 md:w-1/3">
                             <div className="flex flex-col h-full p-8 rounded-lg bg-secondary">
                                 <div className="flex items-center mb-3">
-                                    <div className="inline-flex items-center justify-center w-8 h-8 mr-3 bg-blue-500 rounded-full shrink-0 text-secondary-foreground">
+                                    <div className="inline-flex items-center justify-center w-8 h-8 mr-3 bg-blue-500 rounded-full shrink-0 text-accent">
                                         <Icons.code className="w-5 h-5" />
                                     </div>
                                     <h2 className="text-lg font-medium text-secondary-foreground title-font">
@@ -203,7 +203,7 @@ const Page = (props: Props) => {
                                     </h2>
                                 </div>
                                 <div className="grow">
-                                    <p className="text-base leading-relaxed text-muted-foreground">
+                                    <p className="text-base leading-relaxed text-accent-foreground">
                                         Stay ahead with our state-of-the-art
                                         software and technology.
                                     </p>
@@ -213,7 +213,7 @@ const Page = (props: Props) => {
                         <div className="p-4 md:w-1/3">
                             <div className="flex flex-col h-full p-8 rounded-lg bg-secondary">
                                 <div className="flex items-center mb-3">
-                                    <div className="inline-flex items-center justify-center w-8 h-8 mr-3 bg-blue-500 rounded-full shrink-0 text-secondary-foreground">
+                                    <div className="inline-flex items-center justify-center w-8 h-8 mr-3 bg-blue-500 rounded-full shrink-0 text-accent">
                                         <Icons.magic className="w-5 h-5" />
                                     </div>
                                     <h2 className="text-lg font-medium text-secondary-foreground title-font">
@@ -221,7 +221,7 @@ const Page = (props: Props) => {
                                     </h2>
                                 </div>
                                 <div className="grow">
-                                    <p className="text-base leading-relaxed text-muted-foreground">
+                                    <p className="text-base leading-relaxed text-accent-foreground">
                                         Our solutions are crafted to meet your
                                         unique business needs.
                                     </p>
@@ -231,7 +231,7 @@ const Page = (props: Props) => {
                         <div className="p-4 md:w-1/3">
                             <div className="flex flex-col h-full p-8 rounded-lg bg-secondary">
                                 <div className="flex items-center mb-3">
-                                    <div className="inline-flex items-center justify-center w-8 h-8 mr-3 bg-blue-500 rounded-full shrink-0 text-secondary-foreground">
+                                    <div className="inline-flex items-center justify-center w-8 h-8 mr-3 bg-blue-500 rounded-full shrink-0 text-accent">
                                         <Icons.badgeCheck className="w-5 h-5" />
                                     </div>
                                     <h2 className="text-lg font-medium text-secondary-foreground title-font">
@@ -239,7 +239,7 @@ const Page = (props: Props) => {
                                     </h2>
                                 </div>
                                 <div className="grow">
-                                    <p className="text-base leading-relaxed text-muted-foreground">
+                                    <p className="text-base leading-relaxed text-accent-foreground">
                                         Join businesses thriving with our
                                         transformative technology.
                                     </p>

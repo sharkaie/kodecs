@@ -37,38 +37,40 @@ const Footer = (props: Props) => {
                             MAIN
                         </h2>
                         <nav className="mb-10 list-none">
-                            <li>
-                                <Link
-                                    href="/"
-                                    className="text-muted-foreground hover:text-white"
-                                >
-                                    Home
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/products"
-                                    className="text-muted-foreground hover:text-white"
-                                >
-                                    Products & Services
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/blog"
-                                    className="text-muted-foreground hover:text-white"
-                                >
-                                    Blog
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/about-kodecs-technology"
-                                    className="text-muted-foreground hover:text-white"
-                                >
-                                    About Kodecs Technology
-                                </Link>
-                            </li>
+                            <ul>
+                                <li>
+                                    <Link
+                                        href="/"
+                                        className="text-muted-foreground hover:text-white"
+                                    >
+                                        Home
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        href="/products"
+                                        className="text-muted-foreground hover:text-white"
+                                    >
+                                        Products & Services
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        href="/blog"
+                                        className="text-muted-foreground hover:text-white"
+                                    >
+                                        Blog
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link
+                                        href="/about-kodecs-technology"
+                                        className="text-muted-foreground hover:text-white"
+                                    >
+                                        About Kodecs Technology
+                                    </Link>
+                                </li>
+                            </ul>
                         </nav>
                     </div>
                     <div className="w-full px-4 lg:w-1/4 md:w-1/2">
@@ -76,14 +78,16 @@ const Footer = (props: Props) => {
                             Support
                         </h2>
                         <nav className="mb-10 list-none">
-                            <li>
-                                <Link
-                                    href="/support"
-                                    className="text-muted-foreground hover:text-white"
-                                >
-                                    Suppport & Documentation
-                                </Link>
-                            </li>
+                            <ul>
+                                <li>
+                                    <Link
+                                        href="/support"
+                                        className="text-muted-foreground hover:text-white"
+                                    >
+                                        Suppport & Documentation
+                                    </Link>
+                                </li>
+                            </ul>
                         </nav>
                     </div>
                     <div className="w-full px-4 lg:w-1/4 md:w-1/2">
@@ -91,22 +95,24 @@ const Footer = (props: Props) => {
                             CONTACT
                         </h2>
                         <nav className="mb-10 list-none text">
-                            <li>
-                                <Link
-                                    href="/contact-us"
-                                    className="text-muted-foreground hover:text-white"
-                                >
-                                    Contact Us
-                                </Link>
-                            </li>
-                            <li>
-                                <a
-                                    href="mailto:support@kodecs.in"
-                                    className="text-muted-foreground hover:text-white"
-                                >
-                                    support@kodecs.in
-                                </a>
-                            </li>
+                            <ul>
+                                <li>
+                                    <Link
+                                        href="/contact-us"
+                                        className="text-muted-foreground hover:text-white"
+                                    >
+                                        Contact Us
+                                    </Link>
+                                </li>
+                                <li>
+                                    <a
+                                        href="mailto:support@kodecs.in"
+                                        className="text-muted-foreground hover:text-white"
+                                    >
+                                        support@kodecs.in
+                                    </a>
+                                </li>
+                            </ul>
                         </nav>
                     </div>
                     {/* <div className="w-full px-4 lg:w-1/4 md:w-1/2">
@@ -147,24 +153,36 @@ const Footer = (props: Props) => {
                         <a
                             href="https://facebook.com/kodecstechnology"
                             className="text-muted-foreground"
+                            aria-label="Visit us on Facebook"
+                            rel="noopener noreferrer"
+                            target="_blank"
                         >
                             <Icons.facebook className="w-5 h-5 fill-muted-foreground" />
                         </a>
                         <a
                             href="https://x.com/kodecstechnology"
                             className="ml-3 text-muted-foreground"
+                            aria-label="Visit us on Twitter"
+                            rel="noopener noreferrer"
+                            target="_blank"
                         >
                             <Icons.twitter className="w-5 h-5 fill-muted-foreground" />
                         </a>
                         <a
                             href="https://instagram.com/kodecs.technology"
                             className="ml-3 text-muted-foreground"
+                            aria-label="Follow us on Instagram"
+                            rel="noopener noreferrer"
+                            target="_blank"
                         >
                             <Icons.instagram className="w-5 h-5" />
                         </a>
                         <a
                             href="https://linkedin.com/kodecstechnology"
                             className="ml-3 text-muted-foreground"
+                            aria-label="Connect us on LinkedIn"
+                            rel="noopener noreferrer"
+                            target="_blank"
                         >
                             <Icons.linkedin className="w-5 h-5 fill-muted-foreground" />
                         </a>
