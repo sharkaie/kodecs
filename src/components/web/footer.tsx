@@ -41,7 +41,7 @@ const Footer = (props: Props) => {
                                 <li>
                                     <Link
                                         href="/"
-                                        className="text-muted-foreground hover:text-white"
+                                        className="py-2 text-muted-foreground hover:text-white"
                                     >
                                         Home
                                     </Link>
@@ -49,7 +49,7 @@ const Footer = (props: Props) => {
                                 <li>
                                     <Link
                                         href="/products"
-                                        className="text-muted-foreground hover:text-white"
+                                        className="py-2 text-muted-foreground hover:text-white"
                                     >
                                         Products & Services
                                     </Link>
@@ -57,7 +57,7 @@ const Footer = (props: Props) => {
                                 <li>
                                     <Link
                                         href="/blog"
-                                        className="text-muted-foreground hover:text-white"
+                                        className="py-2 text-muted-foreground hover:text-white"
                                     >
                                         Blog
                                     </Link>
@@ -65,7 +65,7 @@ const Footer = (props: Props) => {
                                 <li>
                                     <Link
                                         href="/about-kodecs-technology"
-                                        className="text-muted-foreground hover:text-white"
+                                        className="py-2 text-muted-foreground hover:text-white"
                                     >
                                         About Kodecs Technology
                                     </Link>
@@ -82,7 +82,7 @@ const Footer = (props: Props) => {
                                 <li>
                                     <Link
                                         href="/support"
-                                        className="text-muted-foreground hover:text-white"
+                                        className="py-2 text-muted-foreground hover:text-white"
                                     >
                                         Suppport & Documentation
                                     </Link>
@@ -99,7 +99,7 @@ const Footer = (props: Props) => {
                                 <li>
                                     <Link
                                         href="/contact-us"
-                                        className="text-muted-foreground hover:text-white"
+                                        className="py-2 text-muted-foreground hover:text-white"
                                     >
                                         Contact Us
                                     </Link>
@@ -107,7 +107,7 @@ const Footer = (props: Props) => {
                                 <li>
                                     <a
                                         href="mailto:support@kodecs.in"
-                                        className="text-muted-foreground hover:text-white"
+                                        className="py-2 text-muted-foreground hover:text-white"
                                     >
                                         support@kodecs.in
                                     </a>
@@ -152,7 +152,7 @@ const Footer = (props: Props) => {
                     <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
                         <a
                             href="https://facebook.com/kodecstechnology"
-                            className="text-muted-foreground"
+                            className="py-2 text-muted-foreground"
                             aria-label="Visit us on Facebook"
                             rel="noopener noreferrer"
                             target="_blank"
@@ -161,7 +161,7 @@ const Footer = (props: Props) => {
                         </a>
                         <a
                             href="https://x.com/kodecstechnology"
-                            className="ml-3 text-muted-foreground"
+                            className="py-2 ml-3 text-muted-foreground"
                             aria-label="Visit us on Twitter"
                             rel="noopener noreferrer"
                             target="_blank"
@@ -170,7 +170,7 @@ const Footer = (props: Props) => {
                         </a>
                         <a
                             href="https://instagram.com/kodecs.technology"
-                            className="ml-3 text-muted-foreground"
+                            className="py-2 ml-3 text-muted-foreground"
                             aria-label="Follow us on Instagram"
                             rel="noopener noreferrer"
                             target="_blank"
@@ -179,7 +179,7 @@ const Footer = (props: Props) => {
                         </a>
                         <a
                             href="https://linkedin.com/kodecstechnology"
-                            className="ml-3 text-muted-foreground"
+                            className="py-2 ml-3 text-muted-foreground"
                             aria-label="Connect us on LinkedIn"
                             rel="noopener noreferrer"
                             target="_blank"
