@@ -12,7 +12,7 @@ const ProductItem = ({ category, title, price, image }: Props) => {
     return (
         <>
             <div className="w-full p-4 lg:w-1/4 md:w-1/2">
-                <a className="relative block h-48 overflow-hidden rounded">
+                <span className="relative block h-48 overflow-hidden rounded">
                     <Image
                         alt={title}
                         className="block object-cover object-center w-full h-full"
@@ -20,7 +20,7 @@ const ProductItem = ({ category, title, price, image }: Props) => {
                         width={420}
                         height={260}
                     />
-                </a>
+                </span>
                 <div className="mt-4">
                     <h3 className="mb-1 text-xs tracking-widest uppercase text-muted-foreground title-font">
                         {category}
