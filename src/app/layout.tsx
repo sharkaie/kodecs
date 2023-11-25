@@ -3,7 +3,7 @@ import localFont from "next/font/local"
 
 import "@/styles/globals.css"
 
-import { Viewport } from "next"
+import { Metadata, Viewport } from "next"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
 import { siteConfig } from "@/config/site"
@@ -37,7 +37,7 @@ interface RootLayoutProps {
     children: React.ReactNode
 }
 
-export const metadata = {
+export const metadata: Metadata = {
     title: {
         default: `${siteConfig.name} - Empowering Businesses and Enriching Lives with Innovative Tech Solutions`,
         template: `%s | ${siteConfig.name}`,
@@ -66,6 +66,7 @@ export const metadata = {
         },
     ],
     creator: "Kodecs Technology",
+    metadataBase: new URL("https://kodecs.in"),
     openGraph: {
         type: "website",
         locale: "en_US",
