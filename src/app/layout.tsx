@@ -8,6 +8,7 @@ import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
+import { Analytics } from "@vercel/analytics/react"
 
 // import { cn } from "@/lib/utils"
 // import { Toaster } from "@/components/ui/toaster"
@@ -65,22 +66,22 @@ export const metadata = {
         },
     ],
     creator: "Kodecs Technology",
-    // openGraph: {
-    //     type: "website",
-    //     locale: "en_US",
-    //     url: siteConfig.url,
-    //     title: siteConfig.name,
-    //     description: siteConfig.description,
-    //     siteName: siteConfig.name,
-    //     images: [
-    //         {
-    //             url: siteConfig.ogImage,
-    //             width: 1200,
-    //             height: 600,
-    //             alt: siteConfig.name,
-    //         },
-    //     ],
-    // },
+    openGraph: {
+        type: "website",
+        locale: "en_US",
+        url: siteConfig.url,
+        title: siteConfig.name,
+        description: siteConfig.description,
+        siteName: siteConfig.name,
+        images: [
+            {
+                url: siteConfig.ogImage,
+                width: 1200,
+                height: 600,
+                alt: siteConfig.name,
+            },
+        ],
+    },
     // twitter: {
     //     card: "summary_large_image",
     //     title: siteConfig.name,
@@ -114,9 +115,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
                     {children}
                     <TailwindIndicator />
                 </ThemeProvider>
-                {/* <Analytics />
-          <Toaster />
-         */}
+                <Analytics />
+                {/*<Toaster /> */}
             </body>
         </html>
     )
