@@ -4,11 +4,11 @@ import localFont from "next/font/local"
 import "@/styles/globals.css"
 
 import { Metadata, Viewport } from "next"
+import Analytics from "@/components/Analytics"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
-import { Analytics } from "@vercel/analytics/react"
 
 // import { cn } from "@/lib/utils"
 // import { Toaster } from "@/components/ui/toaster"
