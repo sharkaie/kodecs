@@ -64,10 +64,10 @@ const Footer = (props: Props) => {
                                 </li>
                                 <li>
                                     <Link
-                                        href="/about-kodecs-technology"
+                                        href="/about-kodecs-technosoft"
                                         className="py-2 text-muted-foreground hover:text-white"
                                     >
-                                        About Kodecs Technology
+                                        About Kodecs Technosoft
                                     </Link>
                                 </li>
                             </ul>
