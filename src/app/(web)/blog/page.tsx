@@ -8,7 +8,7 @@ type Props = {}
 export const metadata: Metadata = {
     title: "Explore Insights and Trends - Blogs",
     description:
-        "Stay informed with Kodecs Technology's blog. Explore industry insights, tech trends, and expert perspectives on innovation, efficiency, and the future of business technology.",
+        "Stay informed with Kodecs Technosoft's blog. Explore industry insights, tech trends, and expert perspectives on innovation, efficiency, and the future of business technology.",
     keywords: [
         "Tech trends",
         "Industry insights",
@@ -51,7 +51,7 @@ const Page = (props: Props) => {
                                         Welcome
                                     </h2>
                                     <h1 className="mb-3 text-lg font-medium text-secondary-foreground title-font">
-                                        Kodecs Technology: Navigating the
+                                        Kodecs Technosoft: Navigating the
                                         Future: Embracing Innovation in Business
                                         Operations
                                     </h1>

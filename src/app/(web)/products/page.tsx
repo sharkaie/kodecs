@@ -53,7 +53,7 @@ export const metadata: Metadata = {
         "RFID technology",
         "Business software",
         "Innovative solutions",
-        "Kodecs Technology",
+        "Kodecs Technosoft",
     ],
     alternates: {
         canonical: "https://kodecs.in/products",

@@ -8,7 +8,7 @@ type Props = {}
 export const metadata: Metadata = {
     title: "Get in Touch with us",
     description:
-        "Reach out to Kodecs Technology and elevate your business. Connect with us for innovative solutions, personalized support, and a partnership in success.",
+        "Reach out to Kodecs Technosoft and elevate your business. Connect with us for innovative solutions, personalized support, and a partnership in success.",
     keywords: [
         "Contact Kodecs",
         "Business partnership",
