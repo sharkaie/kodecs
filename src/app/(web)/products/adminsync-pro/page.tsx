@@ -38,7 +38,7 @@ const page = (props: Props) => {
                             width={400}
                             alt="adminsync-pro"
                             className="object-cover object-center w-full h-64 rounded lg:w-1/2 lg:h-auto"
-                            src={"/images/products/rfid-attendance-system.jpeg"}
+                            src={"/images/products/id-card-maker-10.jpeg"}
                         />
                         <div className="w-full mt-6 lg:w-1/2 lg:pl-10 lg:py-6 lg:mt-0">
                             <h2 className="text-sm tracking-widest text-muted-foreground title-font">
