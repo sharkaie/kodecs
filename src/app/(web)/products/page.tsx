@@ -7,39 +7,46 @@ type Props = {}
 const products = [
     {
         category: "Software",
-        title: "ID Data Collection Portal",
-        price: "coming soon",
-        image: "/images/products/id-data-collection-portal.jpeg",
+        title: "AdminSync Pro",
+        price: "Exclusive",
+        image: "/images/products/rfid-attendance-system.jpeg",
+        href: "/products/adminsync-pro",
     },
     {
         category: "Software",
-        title: "RFID Attendance System",
+        title: "ID Data Collection Portal",
         price: "coming soon",
-        image: "/images/products/rfid-attendance-system.jpeg",
+        image: "/images/products/id-data-collection-portal.jpeg",
+        href: "/products/",
+        // href: "/products/id-data-collection-portal",
     },
     {
         category: "Software",
         title: "Business ERP",
         price: "coming soon",
         image: "/images/products/business-erp-2.jpeg",
+        href: "/products/",
     },
     {
         category: "Software",
         title: "ID Card Maker Software",
         price: "coming soon",
         image: "/images/products/id-card-maker-9.jpeg",
+        href: "/products/",
     },
     {
         category: "Software",
         title: "Billing Software",
         price: "coming soon",
         image: "/images/products/billing-software.jpeg",
+        href: "/products/",
     },
     {
         category: "Software",
         title: "Digital Card Maker",
         price: "coming soon",
         image: "/images/products/digital-card-maker-4.jpeg",
+        href: "/products/",
     },
 ]
 
