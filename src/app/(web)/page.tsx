@@ -2,14 +2,26 @@ import React from "react"
 import Link from "next/link"
 import { Icons } from "@/components/icons"
 import { buttonVariants } from "@/components/ui/button"
+import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
 
 type Props = {}
 
 const Page = (props: Props) => {
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        name: siteConfig.name,
+        image: siteConfig.ogImage,
+        description: siteConfig.description,
+    }
     return (
         <>
             <section className="pt-6 pb-8 space-y-6 md:pb-12 md:pt-10 lg:py-32">
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                />
                 <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
                     <Link
                         href="/blog"
