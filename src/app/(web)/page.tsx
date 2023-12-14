@@ -10,8 +10,10 @@ type Props = {}
 const Page = (props: Props) => {
     const jsonLd = {
         "@context": "https://schema.org",
-        "@type": "Organization",
+        "@type": "WebSite",
         name: siteConfig.name,
+        alternateName : "Kodecs",
+        url: siteConfig.url,
         image: siteConfig.ogImage,
         description: siteConfig.description,
     }
