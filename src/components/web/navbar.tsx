@@ -49,11 +49,17 @@ export function Navbar({ items, children }: MainNavProps) {
                 className="flex items-center space-x-2 md:hidden"
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
             >
-                {showMobileMenu ? <Icons.close /> : <Icons.logo />}
-                <span className="font-bold">Menu</span>
+                {showMobileMenu ? <Icons.close /> : <Icons.menu />}
+                <span className="font-bold">Kodecs Technosoft</span>
             </button>
             {showMobileMenu && items && (
-                <MobileNav items={items}>{children}</MobileNav>
+                <MobileNav
+                    currentState={showMobileMenu}
+                    setCurrentState={setShowMobileMenu}
+                    items={items}
+                >
+                    {children}
+                </MobileNav>
             )}
         </div>
     )
