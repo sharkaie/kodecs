@@ -8,11 +8,11 @@ import { cn } from "@/lib/utils"
 type Props = {}
 
 export const metadata: Metadata = {
-    title: "About Kodecs Technology Innovators in Cutting-Edge Solutions",
+    title: "About Kodecs Technosoft Innovators in Cutting-Edge Solutions",
     description:
-        "Discover the story of Kodecs Technology, where innovation meets efficiency. Learn about our mission, values, and commitment to providing tailored and cutting-edge solutions for businesses.",
+        "Discover the story of Kodecs Technosoft, where innovation meets efficiency. Learn about our mission, values, and commitment to providing tailored and cutting-edge solutions for businesses.",
     keywords: [
-        "About Kodecs Technology",
+        "About Kodecs Technosoft",
         "Innovation",
         "Cutting-edge solutions",
         "Tailored solutions",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         "Technology company",
     ],
     alternates: {
-        canonical: "https://kodecs.in/about-kodecs-technology",
+        canonical: "https://kodecs.in/about-kodecs-technosoft",
     },
 }
 
