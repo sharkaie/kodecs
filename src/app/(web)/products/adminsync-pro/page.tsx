@@ -28,8 +28,41 @@ export const metadata: Metadata = {
 }
 
 const page = (props: Props) => {
+    const jsonLd = {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        name: "AdminSync Pro",
+        description:
+            "Unlock efficiency with AdminSync Pro - a versatile administrative solution seamlessly integrating RFID for precise attendance tracking, LMS for education management and Accounting for finances. All in one management solution for your organization.",
+        image: ["https://kodecs.in/images/products/adminsync-pro.jpeg"],
+        review: {
+            "@type": "Review",
+            reviewRating: {
+                "@type": "Rating",
+                ratingValue: 5,
+                bestRating: 5,
+            },
+            author: {
+                "@type": "Person",
+                name: "Vedant Bhoyar",
+            },
+        },
+        brand: {
+            "@type": "Brand",
+            name: "Kodecs Technosoft",
+        },
+        aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: 5,
+            reviewCount: 3,
+        },
+    }
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             <section className="overflow-hidden text-muted-foreground body-font">
                 <div className="container px-5 py-12 mx-auto">
                     <div className="flex flex-wrap mx-auto lg:w-4/5">
