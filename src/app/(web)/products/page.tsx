@@ -9,7 +9,7 @@ const products = [
         category: "Software",
         title: "AdminSync Pro",
         price: "Exclusive",
-        image: "/images/products/rfid-attendance-system.jpeg",
+        image: "/images/products/adminsync-pro.jpeg",
         href: "/products/adminsync-pro",
     },
     {
