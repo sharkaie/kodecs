@@ -39,12 +39,12 @@ interface RootLayoutProps {
 
 export const metadata: Metadata = {
     title: {
-        default: `${siteConfig.name} - Empowering Businesses and Enriching Lives with Innovative Tech Solutions`,
+        default: `${siteConfig.name} - Empowering Businesses with Innovative Tech Solutions`,
         template: `%s | ${siteConfig.name}`,
     },
     description: siteConfig.description,
     keywords: [
-        "kodecs technology",
+        "kodecs technosoft",
         "kodecs",
         "software solutions",
         "id card maker",
@@ -61,11 +61,11 @@ export const metadata: Metadata = {
     },
     authors: [
         {
-            name: "Kodecs Technology",
+            name: "Kodecs Technosoft",
             url: "https://kodecs.in",
         },
     ],
-    creator: "Kodecs Technology",
+    creator: "Kodecs Technosoft",
     metadataBase: new URL("https://kodecs.in"),
     openGraph: {
         type: "website",

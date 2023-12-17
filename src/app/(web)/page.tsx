@@ -12,7 +12,7 @@ const Page = (props: Props) => {
         "@context": "https://schema.org",
         "@type": "WebSite",
         name: siteConfig.name,
-        alternateName : "Kodecs",
+        alternateName: "Kodecs",
         url: siteConfig.url,
         image: siteConfig.ogImage,
         description: siteConfig.description,
@@ -298,10 +298,10 @@ const Page = (props: Props) => {
             <section className="text-primary body-font">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-col items-start mx-auto lg:w-2/3 sm:flex-row sm:items-center">
-                        <h1 className="text-2xl font-medium grow sm:pr-16 title-font">
+                        <h2 className="text-2xl font-medium grow sm:pr-16 title-font">
                             Explore our dynamic software solutions and elevate
                             your business today. Discover innovation now!
-                        </h1>
+                        </h2>
                         <Link
                             className={cn(
                                 buttonVariants({ variant: "default" })
