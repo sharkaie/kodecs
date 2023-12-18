@@ -11,9 +11,9 @@ const Page = (props: Props) => {
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        name: siteConfig.name,
+        name: siteConfig.name || "Kodecs Technosoft",
         alternateName: "Kodecs",
-        url: siteConfig.url,
+        url: siteConfig.url || "https://kodecs.in",
         image: siteConfig.ogImage,
         description: siteConfig.description,
     }
