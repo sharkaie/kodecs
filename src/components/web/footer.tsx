@@ -169,7 +169,7 @@ const Footer = (props: Props) => {
                             <Icons.twitter className="w-5 h-5 fill-muted-foreground" />
                         </a>
                         <a
-                            href="https://instagram.com/kodecs.technology"
+                            href="https://instagram.com/kodecs.technosoft"
                             className="py-2 ml-3 text-muted-foreground"
                             aria-label="Follow us on Instagram"
                             rel="noopener noreferrer"
