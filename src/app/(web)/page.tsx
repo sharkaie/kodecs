@@ -33,7 +33,11 @@ const Page = (props: Props) => {
                         Kodecs - Tech Beyond Limits
                     </Link>
                     <h1 className="text-3xl font-heading sm:text-5xl md:text-6xl lg:text-7xl">
-                        Explore Innovation with Kodecs Technosoft
+                        Explore Innovation with{" "}
+                        <span className="font-bold font-comfortaa">
+                            Kodecs{" "}
+                            <span className="text-amber-600">Technosoft</span>
+                        </span>
                     </h1>
                     <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
                         Kodecs Technosoft - Empowering Success Through

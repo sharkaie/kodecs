@@ -1,4 +1,4 @@
-import { Inter as FontSans } from "next/font/google"
+import { Comfortaa, Poppins as FontSans } from "next/font/google"
 import localFont from "next/font/local"
 
 import "@/styles/globals.css"
@@ -24,7 +24,15 @@ export const viewport: Viewport = {
 
 const fontSans = FontSans({
     subsets: ["latin"],
+    weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+    display: "swap",
     variable: "--font-sans",
+})
+
+const fontComfortaa = Comfortaa({
+    subsets: ["latin"],
+    display: "swap",
+    variable: "--font-comfortaa",
 })
 
 // Font files can be colocated inside of `pages`
@@ -103,9 +111,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <html lang="en" suppressHydrationWarning>
             <body
                 className={cn(
-                    "h-full bg-background font-sans antialiased",
+                    "h-full bg-background antialiased",
                     fontSans.variable,
-                    fontHeading.variable
+                    fontHeading.variable,
+                    fontComfortaa.variable,
+                    "font-sans"
                 )}
             >
                 <ThemeProvider

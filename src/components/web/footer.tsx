@@ -25,7 +25,9 @@ const Footer = (props: Props) => {
                             width={50}
                             height={50}
                         />
-                        <span className="ml-3 text-xl">{siteConfig.name}</span>
+                        <span className="ml-3 text-xl font-comfortaa">
+                            {siteConfig.name}
+                        </span>
                     </Link>
                     <p className="mt-2 text-sm text-muted-foreground">
                         {siteConfig.tagline}
