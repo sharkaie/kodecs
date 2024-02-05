@@ -50,7 +50,9 @@ export function Navbar({ items, children }: MainNavProps) {
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
             >
                 {showMobileMenu ? <Icons.close /> : <Icons.menu />}
-                <span className="font-bold">Kodecs Technosoft</span>
+                <span className="font-bold font-comfortaa">
+                    {siteConfig.name}
+                </span>
             </button>
             {showMobileMenu && items && (
                 <MobileNav
