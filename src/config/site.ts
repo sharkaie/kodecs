@@ -10,6 +10,7 @@ export const siteConfig: SiteConfig = {
     url: env.NEXT_PUBLIC_APP_BASE_URL || "https://kodecs.in",
     ogImage: `${env.NEXT_PUBLIC_APP_BASE_URL}/og-image.png`,
     links: {
+        linkedin: "https://www.linkedin.com/company/kodecs-technosoft",
         twitter: "https://twitter.com/kodecs",
         github: "https://github.com/sharkaie/kodecs",
     },

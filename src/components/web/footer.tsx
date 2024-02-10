@@ -180,7 +180,10 @@ const Footer = (props: Props) => {
                             <Icons.instagram className="w-5 h-5" />
                         </a>
                         <a
-                            href="https://linkedin.com/kodecstechnology"
+                            href={
+                                siteConfig.links.linkedin ||
+                                "https://linkedin.com/company/kodecs-technosoft"
+                            }
                             className="py-2 ml-3 text-muted-foreground"
                             aria-label="Connect us on LinkedIn"
                             rel="noopener noreferrer"
