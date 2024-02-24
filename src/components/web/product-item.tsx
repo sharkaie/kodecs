@@ -1,17 +1,22 @@
 import React from "react"
 import Image from "next/image"
+import Link from "next/link"
 
 type Props = {
     category: string
     title: string
     price: string
     image: string
+    href: string
 }
 
-const ProductItem = ({ category, title, price, image }: Props) => {
+const ProductItem = ({ category, title, price, image, href }: Props) => {
     return (
         <>
-            <div className="w-full p-4 lg:w-1/4 md:w-1/2">
+            <Link
+                href={href || "/products"}
+                className="w-full p-4 lg:w-1/4 md:w-1/2"
+            >
                 <span className="relative block h-48 overflow-hidden rounded">
                     <Image
                         alt={title}
@@ -30,7 +35,7 @@ const ProductItem = ({ category, title, price, image }: Props) => {
                     </h2>
                     <p className="mt-1">{price}</p>
                 </div>
-            </div>
+            </Link>
         </>
     )
 }

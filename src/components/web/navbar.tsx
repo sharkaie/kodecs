@@ -20,9 +20,9 @@ export function Navbar({ items, children }: MainNavProps) {
 
     return (
         <div className="flex gap-6 md:gap-10">
-            <Link href="/" className="hidden items-center space-x-2 md:flex">
+            <Link href="/" className="items-center hidden space-x-2 md:flex">
                 {/* <Icons.logo /> */}
-                <span className="hidden font-bold sm:inline-block">
+                <span className="hidden font-bold sm:inline-block font-comfortaa">
                     {siteConfig.name}
                 </span>
             </Link>
@@ -49,11 +49,19 @@ export function Navbar({ items, children }: MainNavProps) {
                 className="flex items-center space-x-2 md:hidden"
                 onClick={() => setShowMobileMenu(!showMobileMenu)}
             >
-                {showMobileMenu ? <Icons.close /> : <Icons.logo />}
-                <span className="font-bold">Menu</span>
+                {showMobileMenu ? <Icons.close /> : <Icons.menu />}
+                <span className="font-bold font-comfortaa">
+                    {siteConfig.name}
+                </span>
             </button>
             {showMobileMenu && items && (
-                <MobileNav items={items}>{children}</MobileNav>
+                <MobileNav
+                    currentState={showMobileMenu}
+                    setCurrentState={setShowMobileMenu}
+                    items={items}
+                >
+                    {children}
+                </MobileNav>
             )}
         </div>
     )

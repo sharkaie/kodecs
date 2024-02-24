@@ -25,7 +25,9 @@ const Footer = (props: Props) => {
                             width={50}
                             height={50}
                         />
-                        <span className="ml-3 text-xl">{siteConfig.name}</span>
+                        <span className="ml-3 text-xl font-comfortaa">
+                            {siteConfig.name}
+                        </span>
                     </Link>
                     <p className="mt-2 text-sm text-muted-foreground">
                         {siteConfig.tagline}
@@ -64,10 +66,10 @@ const Footer = (props: Props) => {
                                 </li>
                                 <li>
                                     <Link
-                                        href="/about-kodecs-technology"
+                                        href="/about-kodecs-technosoft"
                                         className="py-2 text-muted-foreground hover:text-white"
                                     >
-                                        About Kodecs Technology
+                                        About Kodecs Technosoft
                                     </Link>
                                 </li>
                             </ul>
@@ -169,7 +171,7 @@ const Footer = (props: Props) => {
                             <Icons.twitter className="w-5 h-5 fill-muted-foreground" />
                         </a>
                         <a
-                            href="https://instagram.com/kodecs.technology"
+                            href="https://instagram.com/kodecs.technosoft"
                             className="py-2 ml-3 text-muted-foreground"
                             aria-label="Follow us on Instagram"
                             rel="noopener noreferrer"
@@ -178,7 +180,10 @@ const Footer = (props: Props) => {
                             <Icons.instagram className="w-5 h-5" />
                         </a>
                         <a
-                            href="https://linkedin.com/kodecstechnology"
+                            href={
+                                siteConfig.links.linkedin ||
+                                "https://linkedin.com/company/kodecs-technosoft"
+                            }
                             className="py-2 ml-3 text-muted-foreground"
                             aria-label="Connect us on LinkedIn"
                             rel="noopener noreferrer"
